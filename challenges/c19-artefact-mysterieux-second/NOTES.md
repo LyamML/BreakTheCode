@@ -1,6 +1,6 @@
 ---
 owner: kevin
-status: solved
+status: failed
 points: "17"
 tags: "bonusmalus, chaîne c26"
 answer: "ANNAPOLIS"

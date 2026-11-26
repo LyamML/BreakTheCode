@@ -1,7 +1,7 @@
 ---
 id: c16
 owner: kevin
-status: wip
+status: submitted
 points: 21
 tags: [binaire, filtrage]
 answer: BANDIT

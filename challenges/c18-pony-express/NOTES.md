@@ -1,6 +1,6 @@
 ---
 owner: kevin
-status: wip
+status: submitted
 points: 23
 tags: SCC, Dijkstra
 confidence: haute

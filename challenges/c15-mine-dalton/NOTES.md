@@ -1,6 +1,6 @@
 ---
 owner: kevin
-status: solved
+status: submitted
 points: "39"
 tags: ""
 answer: "4"

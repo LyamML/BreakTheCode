@@ -1,6 +1,6 @@
 ---
 owner: kevin
-status: solved
+status: submitted
 points: "53"
 tags: "bonusmalus"
 answer: "70109e48139744f248ec94bea01769b8130d22c5e49b327c0694319734b7ce3d"

@@ -1,48 +1,53 @@
-# État des challenges — 26/11/2026, ~20h35 (Kevin)
+# Bilan final — Break the Code 2026 (26/11/2026)
 
-Statuts CTFd relevés dans la session de Kevin (gel du classement à 21h20).
-Dernier relevé : **3e avec ~295 points** (1er 335, 2e 305).
+Équipe **SENDAI** (Lyam, Kevin, Antho), EPSI Rennes. 35 équipes classées.
 
-## ✅ Validés sur CTFd (10)
+## Classement
 
-| Challenge | Flag accepté |
-|---|---|
-| c15 La mine des Dalton | `4` |
-| c16 Le Duel Truqué | `BANDIT` |
-| c18 Pony Express | voir `challenges/c18-pony-express/answer.txt` |
-| c21 Visite surprise | `26` |
-| c23 Avis de recherche | `LLIAM` — **nouveau** (l'« Homme en noir », n°5 ; résolu avec les affiches de la salle) |
-| c24 Concours de tir : feu ! | `226` |
-| c25 Trip from Seattle | `WWWEST` |
-| c26 Artefact – Premier message | `GLOOSCAP` |
-| c27 Concours de tir : After party | `Abraham Lincoln` |
-| c28 L'attaque de la diligence | voir `challenges/c28-attaque-diligence/answer.txt` |
+Relevé sur le CTFd après la clôture :
 
-## ⏳ Soumis, en attente
+| Rang | Équipe | Points |
+|---|---|---|
+| 1 | Normale Surchauffe | 335 |
+| 2 | SaladeTomateOignon2 | 295 |
+| 3 | sudo | 290 |
+| 4 | Recours gracieux | 289 |
+| **5** | **SENDAI** | **287** |
+| 6 | RENNUET | 273 |
+| 7 | MILO | 264 |
 
-- **c20 Tournée des saloons** (60 pts, classement) : soumis avec 19 arrêts en 4 h 08,
-  correction manuelle. Une 2e version **sans piste réutilisée** est en calcul pour couvrir
-  le cas où les juges l'interdiraient.
+Le classement public était gelé à 21h20 (heure de Paris). La page de l'équipe affiche
+308 points, sans doute à cause de soumissions après le gel. **c20 (classement, correction
+manuelle) n'était pas encore compté** : il peut encore changer le rang final.
 
-## ❌ Ce qui nous manque
+Sur l'event, l'équipe a eu **10 réponses refusées** (malus des challenges bonusmalus).
 
-### c17 — L'opérateur fantôme (26 pts) — rien trouvé, 1 seule équipe l'a
-- Réponse : un **nom de rue sans déterminant** (format « rue du saloon »).
-- Pas de fichier. Le fichier caché `/files/media/indice_operateur_fantome.txt` dit seulement
-  « bien essayé… vous êtes sur la bonne voie » → il faut chercher des éléments cachés.
-- Déjà vérifié sans résultat : code HTML des pages, en-têtes HTTP, plugins, notifications,
-  `robots.txt`, flux d'événements, logo/favicon, liste des équipes.
-- Pistes : **dans la salle** (message en points et traits, panneau ou plan avec un nom de
-  rue, écran qui tourne en boucle), **noms des réseaux Wi-Fi** visibles dans la salle.
+## Challenges
 
-### c22 — Attaque du train (39 pts) — en pause, personne ne l'a
-- Message déchiffré (Morse puis Vigenère, clé RENO) :
-  `MEET OK CROSSROADS SET OLD SIGN ACTIVE HOLD UNTIL NIGHT SHIFT`.
-- **Refusés** : la phrase entière, `SEYMOUR`. C'est le format du flag qui manque.
+| Challenge | Points | Résultat | Flag / note |
+|---|---|---|---|
+| c15 La mine des Dalton | 39 | ✅ validé | `4` |
+| c16 Le Duel Truqué | 21 | ✅ validé | `BANDIT` |
+| c17 L'opérateur fantôme | 26 | ❌ non trouvé | Se résolvait dans la salle : chuchoter « Où aura lieu la fête » à un orga avec une étoile de shérif |
+| c18 Pony Express | 23 | ✅ validé | voir `challenges/c18-pony-express/answer.txt` |
+| c19 Artefact – Second message | 17 | ❌ refusé | `ANNAPOLIS`, `NANNAPOLIS`, `8`, `87` refusés |
+| c20 Tournée des saloons | 60 | ⏳ correction manuelle | 19 arrêts en 4 h 08 |
+| c21 Visite surprise | 17 | ✅ validé | `26` |
+| c22 Attaque du train | 39 | ❌ refusé | Déchiffré `MEET OK CROSSROADS SET OLD SIGN ACTIVE HOLD UNTIL NIGHT SHIFT` ; la phrase entière et `SEYMOUR` refusés : format du flag non trouvé |
+| c23 Avis de recherche | 33 | ✅ validé | `LLIAM` (affiches de la salle, n°5) |
+| c24 Concours de tir : feu ! | 33 | ✅ validé | `226` |
+| c25 Trip from Seattle | 28 | ✅ validé | `WWWEST` |
+| c26 Artefact – Premier message | 47 | ✅ validé | `GLOOSCAP` |
+| c27 Concours de tir : After party | 29 | ✅ validé | `Abraham Lincoln` |
+| c28 L'attaque de la diligence | 53 | ✅ validé | voir `challenges/c28-attaque-diligence/answer.txt` |
 
-### c19 — Artefact – Second message (17 pts) — en pause
-- Ligne 7 : `NANNAPOLIS` (décalage −8) ou `nannapolis` (décalage +24).
-- **Refusés** : `ANNAPOLIS`, `NANNAPOLIS`, `8`, `87`. Chaque essai coûte un malus.
-- Meilleure piste : `annapolis` en minuscules, puis `nannapolis`.
+Les 10 validations sont toutes au nom du compte de Kevin (19h26–19h50, heure UTC).
+Détails de chaque challenge : `challenges/cNN-*/NOTES.md`.
 
-Les solutions (`solve.py`, `NOTES.md`, `answer.txt`) sont dans `challenges/cNN-*/`.
+## Ce qu'on retient
+
+- Les 9 challenges « algorithmiques » ont été validés en 25 min : l'outillage
+  (fetch, solveurs, vérification) a fonctionné.
+- Les points perdus viennent des **challenges physiques** (c17, c23 : la réponse était
+  dans la salle) et du **format du flag** (c19, c22 : réponse déchiffrée mais refusée).
+- Leçons détaillées : `docs/PLAYBOOK.md`, section 6.
