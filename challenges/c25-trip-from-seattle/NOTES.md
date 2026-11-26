@@ -1,7 +1,7 @@
 ---
 id: c25
 owner: kevin
-status: wip
+status: submitted
 points: 28
 tags: [tracé, visuel]
 answer: WWWEST

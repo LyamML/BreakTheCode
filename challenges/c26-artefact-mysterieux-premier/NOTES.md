@@ -1,6 +1,6 @@
 ---
 owner: kevin
-status: solved
+status: submitted
 points: "47"
 tags: ""
 answer: "GLOOSCAP"

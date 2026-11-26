@@ -1,6 +1,6 @@
 ---
 owner: kevin
-status: solved
+status: submitted
 points: "33"
 tags: "simulation, bonusmalus"
 answer: "226"

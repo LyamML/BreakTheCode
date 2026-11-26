@@ -1,7 +1,26 @@
 # Break the Code 2026
 
-Repo de l'équipe Lyam / Kevin / Antho pour l'event Sopra Steria Break the Code 2026.
-Objectif : **la 1re place**. Les instructions pour Claude Code sont dans
+Repo de l'équipe Lyam / Kevin / Antho (SENDAI, EPSI Rennes) pour l'event Sopra Steria
+Break the Code 2026.
+
+## Résultat (26/11/2026)
+
+**5e sur 35 équipes, 287 points** au classement gelé : 10 challenges validés sur 14.
+c20 (Tournée des saloons) était encore en correction manuelle à la clôture. Ce résultat
+peut donc encore changer.
+
+| | |
+|---|---|
+| Validés | c15, c16, c18, c21, c23, c24, c25, c26, c27, c28 |
+| Refusés (format du flag) | c19, c22 |
+| Non trouvé | c17 (se résolvait dans la salle) |
+| En attente | c20 (optimisation, correction manuelle) |
+
+Bilan complet : [docs/ETAT.md](docs/ETAT.md). Leçons : [docs/PLAYBOOK.md](docs/PLAYBOOK.md), section 6.
+
+## Utiliser le repo
+
+L'objectif était **la 1re place**. Les instructions pour Claude Code sont dans
 [CLAUDE.md](CLAUDE.md), [.claude/rules/](.claude/rules/) et [.claude/agents/](.claude/agents/).
 
 ## Installation — macOS / Linux (machine de l'agent principal)

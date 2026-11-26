@@ -1,6 +1,6 @@
 ---
 owner: kevin
-status: solved
+status: submitted
 points: 29
 tags: simulation, visuel
 answer: "Abraham Lincoln"
