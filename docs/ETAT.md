@@ -51,4 +51,5 @@ sur CTFd ne sont pas suivies ici** (demander à Kevin avant de resoumettre un bo
 | c27 Concours de tir : After party | 29 | `Abraham Lincoln` | moyenne | image certaine, format non précisé |
 | c28 L'attaque de la diligence | 53 | `70109e48139744f248ec94bea01769b8130d22c5e49b327c0694319734b7ce3d` | moyenne | SHA256 du journal (168 lignes, `\n` final) |
 
-Les branches `kevin/cNN-*` (solve.py, NOTES.md détaillées) ne sont pas encore poussées.
+Le détail de chaque solution (`solve.py`, `NOTES.md`, `answer.txt`) est dans
+`challenges/cNN-*/`. Tableau de bord généré : [challenges/INDEX.md](../challenges/INDEX.md).
