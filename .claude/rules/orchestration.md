@@ -24,6 +24,24 @@ choisit un modèle par tâche et délègue. Il ne résout lui-même que ce qui p
 | « Visuel », projection, interprétation d'image | Opus | p08 (constellations) |
 | « Optimisation », score à maximiser | Opus | p06, p09 (sac à dos sur graphe) |
 | Doute sur la difficulté | Sonnet, puis escalade | — |
+| **Challenge physique** : aucun fichier, récit qui place la réponse « en ville », « sous les yeux de tous », personnage joué par un orga | **Humain** (l'agent fait la checklist) | c17, c23 de l'event 2026 |
+
+**Challenge physique** : l'agent ne voit pas la salle. Il ne délègue pas à un solveur et
+ne fouille pas la plateforme plus de 10 minutes. Il dit tout de suite à l'humain « ce
+challenge se joue sans doute dans la salle » et lui donne une checklist d'observation :
+- ce qui est affiché : slides, écrans, compte à rebours, affiches, panneaux, décor ;
+- ce qui est dit : annonce d'ouverture, consignes des orgas, sons et musique ;
+- les orgas : badges, costumes, accessoires (en 2026, **seuls ceux avec une étoile de
+  shérif** donnaient la réponse de c17) ;
+- les ondes, en regardant seulement : noms Bluetooth et Wi-Fi visibles sur un téléphone ;
+- les équipes de tête : heure de leurs validations sur le CTFd
+  (`/api/v1/challenges/<id>/solves`). Une validation en quelques minutes sans prérequis
+  veut dire que la clé est accessible tout de suite, souvent hors écran.
+
+Pour parler aux orgas : reprendre **le vocabulaire du récit**, comme un complice
+(c17 : le « sabotage » de l'énoncé devenait « la fête », et la phrase était
+« Où aura lieu la fête »). L'humain envoie ses photos et notes ; l'agent les décode et
+vérifie le format du flag avant toute soumission.
 
 **Escalade** : un sous-agent qui bloque, rend une confiance basse ou n'est pas
 d'accord avec le vérificateur → on relance au niveau supérieur (Haiku → Sonnet → Opus)
