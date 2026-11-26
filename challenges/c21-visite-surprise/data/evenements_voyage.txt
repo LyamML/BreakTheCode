@@ -1,0 +1,31 @@
+##VilleA,VilleB,type d'évènement, jour de l'évènement, durée de l'indisponibilité
+Fort Quitman,Fort Grant,Éboulement dans le col,7,1
+Fairbank,Apache Pass,Attaque de bandits bloquant temporairement la piste,11,3
+Jiménez,Galeana,Éboulement sur la piste,2,2
+Aldama,Ojinaga,Pont endommagé par une crue,9,1
+Lincoln,Deming,Glissement de terrain,19,2
+San Pedro River Station,Fort Lowell,Rivière sortie de son lit,19,4
+Casas Grandes,Camp Grant,Piste rendue boueuse par les pluies,18,3
+Naco,Fairbank,Crue soudaine de la rivière,3,3
+Camp Grant,Fort Apache,Piste coupée par des rochers,8,4
+Janos,Fort Quitman,Crue soudaine de la rivière,4,1
+Ascensión,Santa Rita del Cobre,Piste coupée par des rochers,16,5
+Fort Davis,Las Cruces,Attaque de bandits bloquant temporairement la piste,17,2
+Santa Agustín Springs,Fort Lancaster,Tempête de sable,3,1
+San Elizario,Fort Davis,Piste rendue boueuse par les pluies,3,2
+Santa Rita del Cobre,Animas,Chute de neige dans les montagnes,15,4
+Animas,Pinos Altos,Piste rendue boueuse par les pluies,0,5
+Pinos Altos,Naco,Piste coupée par des rochers,20,2
+Deming,Lordsburg,Éboulement sur la piste,6,1
+Sanderson,Presidio,Éboulement dans le col,3,1
+Horsehead Crossing,Fort Stockton (St. Gall),Attaque de bandits bloquant temporairement la piste,17,5
+Camargo,Chihuahua,Piste rendue boueuse par les pluies,5,4
+Presidio,Van Horn Wells,Piste coupée par des rochers,5,5
+Las Cruces,Lincoln,Glissement de terrain,3,3
+Fort Bliss,San Elizario (north),Passage bloqué par des débris,10,2
+Presidio,Boquillas,Chute de neige dans les montagnes,6,1
+Buenaventura,Casas Grandes,Tempête violente dans la région,11,1
+Van Horn Wells,Horsehead Crossing,Crue soudaine de la rivière,19,2
+Sanderson,Comanche Springs,Incendie dans la vallée,15,3
+Fort Lowell,Dragoon Springs,Piste rendue boueuse par les pluies,7,4
+Silver City,San Elizario (north),Attaque de bandits bloquant temporairement la piste,0,3
