@@ -16,7 +16,8 @@ peut donc encore changer.
 | Non trouvé | c17 (se résolvait dans la salle) |
 | En attente | c20 (optimisation, correction manuelle) |
 
-Bilan complet : [docs/ETAT.md](docs/ETAT.md). Leçons : [docs/PLAYBOOK.md](docs/PLAYBOOK.md), section 6.
+Bilan complet : [docs/ETAT.md](docs/ETAT.md). Retour d'expérience :
+[docs/REX-2026.md](docs/REX-2026.md). Leçons courtes : [docs/PLAYBOOK.md](docs/PLAYBOOK.md), section 6.
 
 ## Utiliser le repo
 
