@@ -1,0 +1,17 @@
+next planet,weapons to pick on next planet(separated by ;)
+Mars,24
+Trabilos,142
+Asgard,182;184;183
+Kepler-22b,234;235
+Saturne,260;263
+Xerthys,270
+Helyra,277;278;279
+Éris,294
+Jupiter,296
+HD 209458 b,305;307;306;304
+Fyrell,311
+Maltheris,320;318
+Elysiar,330
+Telvaron,335;334
+Lysithea,339;336;338;337
+Xevora

@@ -1,0 +1,20 @@
+   d  b  abc  cd     cb   e be Xa cc   dbecac    XcX e b dad d e   e  cce ebdc c  a  b      c bd c c
+ d    b  d   baec     c  d c X   c     a be    X X c  d  ae  b b b  e c e  c  bc b  e      e d  d d 
+ c     e  d        b   c      c        b  cXa XXb  b   b  a      cb   a b  a       ebba de  e ade c 
+  c  b aee    b d  eeXaXXb  c b e    a    X  X a de       d   dcce a  a  c   d b  eda   cb  ee  ae  
+ c   e    b     a adX X cc b       cce ecX dcd d a  cc    e    ccb  a   dc e e   d    c c  be  a c d
+b          b  aec  XXXc d    e   b   X XXa dece  b c ed ae       e  a   e a  d   ce    ddd   b      
+dc e     a  b dXceX    c  b  b  e  aXXbX d b    a    c e  b  b       d  a  a ee   e  b d   a b      
+    aa  ed   XXd     de          daX b    ede be   e eccea       dd         e  e d     b b c  a  d  
+ be   a   dXbXcea           b  Xe X  a d    dce  e  b d d  d b cb e a  a     d  b      c   e e   cd 
+ c d     XbXX a      d       XX  X   c b a         bedd  e           d      c    a d c    a     a   
+ b   a c X X  ca        bb XbX   d   dc   de        cd       ae   a     c a   d       e  dde    a c 
+       c X  e a d  d   c X XX d  dc c   c  d XX  e   ee     e  de  c  a  c  d c  a  c  bcc ab cc  d 
+       X e  a   c  d    XXcXe eb dd   c    X  bc  c    ce ac ea        aac bea   c ba  d de  d   ea 
+   eaX    adc aa  a   eX X      aa d  ca X XX b a e c    db    d e ae  c    b d   a  db  d b b  d  c
+e    b  accce  dce X  XX e a  ce     d  XX ca      c d b d  bb     cb   c      c  ea eec  e      ac 
+   e    aa e     X   X      bc a a    dX X  b bea  cb   ad e d b  c         d   a   bb b a edba  cd 
+e c     d     eX X       d ed ce   X  XXa    ad ebb  d c               bed   ccbe   ae d c cd   cca 
+ ab     d    X XXe       e d b  eXX eXe   a  c d    e  a  b dd   cb  d   d      bade bbddc c    dac 
+ bc    db  dXX X e  ae   d d  aX X  e   e  e        c b      dbdd  e   d  e  abc    dabaa   a      e
+   d  b    X X  a     a   b  XaXe   c  a   ac      e  b dda     ae d  eb b c   e c  e        c   ed 

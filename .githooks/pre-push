@@ -1,0 +1,14 @@
+#!/bin/sh
+# Interdit de pousser vers main/master (passer par une PR).
+# Exception : premier push quand la branche distante n'existe pas encore.
+while read -r local_ref local_sha remote_ref remote_sha; do
+  case "$remote_ref" in
+    refs/heads/main|refs/heads/master)
+      if [ "$remote_sha" != "0000000000000000000000000000000000000000" ]; then
+        echo "pre-push: push vers ${remote_ref#refs/heads/} interdit, ouvre une PR." >&2
+        exit 1
+      fi
+      ;;
+  esac
+done
+exit 0

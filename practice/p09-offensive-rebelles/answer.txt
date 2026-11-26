@@ -1,0 +1,12 @@
+next planet,fuel items to travel to next planet (separated by ;),items to pick on next planet(separated by ;)
+Arctyra,1,122;126;127
+Dravonis,126,368;370
+Gliese 581g,127;370,544;546;548;549;550
+Olorin,550,568;570;571
+Orthelia,549,573;574;575;576
+Gallifrey,576,580;585
+Triton,571,636;637;639;641
+Mars,641,658;660;662;663
+Noctyra,585,667;670;674
+Xerthys,663,686;687;688;689
+Crystar,674

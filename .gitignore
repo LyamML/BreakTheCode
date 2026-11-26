@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.claude/settings.local.json
+
+# Données lourdes : récupérées avec scripts/fetch_ctfd.py
+*.wav
+*.mp3
+*.mp4
+*.zip
+
+# Brut téléchargé de l'archive (déjà rangé dans practice/pNN-*/)
+practice/_raw/

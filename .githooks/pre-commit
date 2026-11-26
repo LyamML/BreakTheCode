@@ -1,0 +1,14 @@
+#!/bin/sh
+# Interdit de committer directement sur main/master.
+branch="$(git symbolic-ref --short HEAD 2>/dev/null)"
+case "$branch" in
+  main|master)
+    # Exception : tout premier commit du repo (bootstrap)
+    if git rev-parse --verify -q HEAD >/dev/null; then
+      echo "pre-commit: commit sur '$branch' interdit." >&2
+      echo "  -> git switch -c <prenom>/<id>-<slug>" >&2
+      exit 1
+    fi
+    ;;
+esac
+exit 0
