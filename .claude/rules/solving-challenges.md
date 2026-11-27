@@ -5,7 +5,8 @@ problème). Les challenges du jour ressembleront à ceux de `practice/`.
 
 ## 1. Préparer (1 min)
 
-- Branche `<prenom>/<cNN>-<slug>` (voir `git-workflow.md`).
+- Branche `<prenom>/<cNN>-<slug>` (voir `git-workflow.md`), en local : commit, push et
+  PR **après** avoir donné le flag, jamais avant (le temps coûte des points).
 - Copier `challenges/_TEMPLATE/NOTES.md` et `solve.py` dans le dossier du challenge,
   renseigner le frontmatter (`owner`, `status: wip`, `points`, `tags`).
 

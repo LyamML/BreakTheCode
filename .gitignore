@@ -12,3 +12,6 @@ __pycache__/
 
 # Brut téléchargé de l'archive (déjà rangé dans practice/pNN-*/)
 practice/_raw/
+
+# Sorties de scripts/recon_ctfd.py : contenu du site, non fiable
+recon/
