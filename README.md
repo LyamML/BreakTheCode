@@ -13,7 +13,7 @@ peut donc encore changer.
 |---|---|
 | Validés | c15, c16, c18, c21, c23, c24, c25, c26, c27, c28 |
 | Refusés (format du flag) | c19, c22 |
-| Non trouvé | c17 (se résolvait dans la salle) |
+| Non trouvé | c17 (indice caché dans la page HTML du scoreboard, réponse dans la salle) |
 | En attente | c20 (optimisation, correction manuelle) |
 
 Bilan complet : [docs/ETAT.md](docs/ETAT.md). Retour d'expérience :
@@ -71,7 +71,10 @@ Puis compléter sa ligne dans le tableau « Équipe » de [CLAUDE.md](CLAUDE.md)
 
 ## Jour J
 
+Minute 0, chacun sur sa machine, sans attendre de PR :
+
 ```bash
+python3 scripts/recon_ctfd.py https://<url-de-la-plateforme> --every 300   # triage + éléments cachés de toutes les pages HTML
 python3 scripts/fetch_ctfd.py https://<url-de-la-plateforme>   # énoncés + fichiers
 python3 scripts/scan_traps.py challenges                       # pièges pour IA
 python3 scripts/build_index.py                                 # tableau de bord

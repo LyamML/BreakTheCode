@@ -28,7 +28,7 @@ Sur l'event, l'équipe a eu **10 réponses refusées** (malus des challenges bon
 |---|---|---|---|
 | c15 La mine des Dalton | 39 | ✅ validé | `4` |
 | c16 Le Duel Truqué | 21 | ✅ validé | `BANDIT` |
-| c17 L'opérateur fantôme | 26 | ❌ non trouvé | Se résolvait dans la salle : chuchoter « Où aura lieu la fête » à un orga avec une étoile de shérif |
+| c17 L'opérateur fantôme | 26 | ❌ non trouvé | Hybride : image invisible dans la page HTML du scoreboard, puis chuchoter « Où aura lieu la fête » à un orga avec une étoile de shérif |
 | c18 Pony Express | 23 | ✅ validé | voir `challenges/c18-pony-express/answer.txt` |
 | c19 Artefact – Second message | 17 | ❌ refusé | `ANNAPOLIS`, `NANNAPOLIS`, `8`, `87` refusés |
 | c20 Tournée des saloons | 60 | ⏳ correction manuelle | 19 arrêts en 4 h 08 |
@@ -48,6 +48,8 @@ Détails de chaque challenge : `challenges/cNN-*/NOTES.md`.
 
 - Les 9 challenges « algorithmiques » ont été validés en 25 min : l'outillage
   (fetch, solveurs, vérification) a fonctionné.
-- Les points perdus viennent des **challenges physiques** (c17, c23 : la réponse était
-  dans la salle) et du **format du flag** (c19, c22 : réponse déchiffrée mais refusée).
+- Les points perdus viennent de la **mise en route** (trop d'étapes avant le premier
+  flag), du **site lu seulement via l'API** (c17 : l'indice était dans la page HTML du
+  scoreboard), de la **salle** (c17, c23) et du **format du flag** (c19, c22 : réponse
+  déchiffrée mais refusée).
 - Leçons détaillées : `docs/PLAYBOOK.md`, section 6.
